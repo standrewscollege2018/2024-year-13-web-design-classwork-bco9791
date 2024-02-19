@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN' crossorigin='anonymous'>
+</head>
+<body>
+    <!-- Post form -->
+    <form action="form1.php" method="post">
+        <!-- Base input -->
+        <div class="m-5">
+            <label for="input1" class="form-label">Bing bong</label>
+            <input type="text" class="form-control" id="input1" placeholder="Bing bong">
+        </div>
+        <div class="m-5">
+            <label for="input2" class="form-label">Bong Bing</label>
+            <!-- Using textarea instead of input for more rows-->
+            <textarea type="text" class="form-control" id="input2" rows="3"></textarea>
+            <!-- Text appearing below the input box -->
+            <div id="infotext" class="form-text">
+                bing bong
+            </div>
+            <!-- Submit button -->
+            <button class="mt-5" type="submit" name="button">Button</button>
+        </div>
+    </form>
+</body>
+</html>
